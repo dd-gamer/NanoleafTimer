@@ -4,20 +4,20 @@
 
 ## Overview
 
-*What will this Script do?*
+*What will this Script do?*  
 
-It lets you create a light timer with your Nanoleaf.
-You can use as many panels as u want and maybe also the newer panels like Canvas, but I only tested it with 9 Aurora Panels.
+It lets you create a light timer with your Nanoleaf.  
+You can use as many panels as u want and maybe also the newer panels like Canvas, but I only tested it with 9 Aurora Panels.  
 
-The color of a panels shows it's time value.
-I chose some not super bright colors.
-U can change the color easily by adjusting the rgb values
-blue =  30 minutes left
-green = 15-29 minutes left
-yellow = 10-14 minutes left
-orange = 5-9 minutes left
-red = 1-4 minutes left
-white = 0 minutes left
+The color of a panels shows it's time value.  
+I chose some not super bright colors.  
+U can change the color easily by adjusting the rgb values.  
+blue =  30 minutes left  
+green = 15-29 minutes left  
+yellow = 10-14 minutes left  
+orange = 5-9 minutes left  
+red = 1-4 minutes left  
+white = 0 minutes left  
  
 
 ## Configuration
