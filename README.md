@@ -1,8 +1,11 @@
 # NanoleafTimer
 
+![header](header.jpg)
+
 ## Overview
 
 *What will this Script do?*
+
 It lets you create a light timer with your Nanoleaf.
 You can use as many panels as u want and maybe also the newer panels like Canvas, but I only tested it with 9 Aurora Panels.
 
