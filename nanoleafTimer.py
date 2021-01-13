@@ -7,7 +7,6 @@ import time
 # warning: pairing starts on first run
 # run script, hold down nanolead power button 5-7 seconds, run script again
 nl = Nanoleaf("192.168.69.6")
-# nl.set_color((0, 255, 0))
 
 # panel ids (can be retrieved with print(nl.get_layout()))
 panel_ids = ["87", "193", "11", "25", "141", "111", "62", "202", "52"]
@@ -121,10 +120,15 @@ def timer(minutes):
                 break
             time.sleep(59) #Cause one second is needed for the update request
 
+# Get panel ids
+print(nl.get_layout())
 
-print(sys.argv[1])
+if len(sys.argv) > 1:
+    print(sys.argv[1])
 
-if sys.argv[1] == 0:
-    turn_all(white)
+    if sys.argv[1] == 0:
+        turn_all(white)
+    else:
+        timer(int(sys.argv[1]))
 else:
-    timer(int(sys.argv[1]))
+    print("\nEnter parameter with timer duration (like: python3 nanoleafTimer.py 10)")
