@@ -22,8 +22,7 @@ white = '120 120 120'  # 0 minutes left
 
 # set specific color
 def set_color(pos, color):
-    nl.write_effect(json.loads('{"command": "display", "animType": "static", "animData": "1 ' + panel_ids[
-        pos - 1] + ' 1 ' + color + ' 0 1", "loop": false}'))
+    nl.write_effect(json.loads('{"command": "display", "version": "1.0", "animType": "static", "animData": "1 ' + panel_ids[pos - 1] + ' 1 ' + color + ' 0 1", "loop": false, "palette":[]}'))
 
 
 # show the choosen colors
